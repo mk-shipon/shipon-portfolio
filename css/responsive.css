@@ -1,0 +1,140 @@
+@media only screen and (max-width: 992px) {
+    html {
+        font-size: 62.5%;
+        scroll-behavior: smooth;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    ul.manu {
+        display: none;
+    }
+
+    img.logo {
+        margin-left: 3rem;
+    }
+
+    span.m-manu-open {
+        display: flex;
+        align-items: center;
+        margin-right: 3rem;
+        cursor: pointer;
+    }
+
+    .skill-all {
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    .all-project-boxs {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .all-market-con {
+        flex-direction: column;
+    }
+
+    .contract-inner {
+        grid-template-columns: 100%;
+    }
+
+    button.p-btn {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    .c-links {
+        margin-left: 3rem;
+    }
+
+    .c-form form {
+        margin: 1rem;
+    }
+
+    .sec-icon a {
+        padding: 1.5rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 62.5%;
+        scroll-behavior: smooth;
+    }
+
+    .all-project-boxs {
+        grid-template-columns: 1fr;
+    }
+
+    .all-market-con {
+        flex-direction: column;
+    }
+
+    .c-links {
+
+        grid-template-columns: 100%;
+
+    }
+
+    .fist-contant-all {
+        margin-left: 30%;
+    }
+
+    .sec-icon a {
+        padding: 1rem;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 40.5%;
+        scroll-behavior: smooth;
+    }
+
+    .skill-all {
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+
+    .all-project-boxs {
+        grid-template-columns: 1fr;
+    }
+
+    .c-links {
+
+        grid-template-columns: 100%;
+
+    }
+
+    .sec-icon a {
+        padding: 1rem;
+    }
+
+    .fist-contant-all {
+        margin-left: 30%;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+    .row {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 1040px) {
+    .row {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {}

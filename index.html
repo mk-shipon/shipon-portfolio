@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- internet explorer & microsoft edge saport meta tag -->
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <title>shipon</title>
+    <!--font awsome css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!--normalize css for all browger common css-->
+    <link rel="stylesheet" href="vandor/css/normalize.css">
+    <!--grid css for grid system-->
+    <link rel="stylesheet" href="vandor/css/grid.css">
+    <!--skills animated circle-->
+    <link rel="stylesheet" href="vandor/css/animated-circle.css">
+    <!--silck slider css-->
+    <link rel="stylesheet" href="vandor/css/slick-theme.css">
+    <!--silck slider css-->
+    <link rel="stylesheet" href="vandor/css/slick.css">
+    <!--main css-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--media css for responsive-->
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+    <!--start header-->
+    <header class="head" id="head">
+
+        <div class="sticky-menu">
+            <div class="f-head">
+                <div class="row">
+                    <nav class="nav">
+                        <div class="logo-img">
+                            <img src="img/shipon-bg-r.png" alt="shipon" class="logo">
+                        </div>
+                        <ul class="manu">
+                            <li><a href="#head">home</a></li>
+                            <li><a href="#skill">skills</a></li>
+                            <li><a href="#projects">projects</a></li>
+                            <li><a href="#market-place">market place</a></li>
+                            <li><a href="#contract">contract</a></li>
+                        </ul>
+                        <span onclick="openNav()" class="m-manu-open" id="m-manu-open">
+                            <i class="fa-solid fa-bars-staggered"></i>
+                        </span>
+
+                    </nav>
+                    <div class="m-manu-cover" id="m-manu-cover">
+                        <span onclick="closeNav()" class="m-manu-close"><i class="fa-solid fa-circle-xmark"></i></span>
+                        <a onclick="closeNav()" href="#head">home</a>
+                        <a onclick="closeNav()" href="#skill">skills</a>
+                        <a onclick="closeNav()" href="#projects">project</a>
+                        <a onclick="closeNav()" href="#market-place">market-place</a>
+                        <a onclick="closeNav()" href="#contract">contract</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--start slider-->
+        <div class="s-head-slider">
+            <div class="slider-cover">
+
+                <div class="row">
+                    <div class="slider-inner-cover responsive">
+                        <div class="slider-box  slider3">
+                            <h2 class="s-title">
+                                my project
+                            </h2>
+                            <p class="s-t-des">
+                                i had completed many projects in my web development journey. i am looking good clients
+                                for my skills show up in my work.
+                            </p>
+                            <div class="btn">
+                                <span class="btn-f">
+                                    <span>
+                                        <button class="btn1">contact</button>
+                                    </span>
+                                </span>
+                                <span class="btn-s">
+                                    <span>
+                                        <button class="btn2">market place</button>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="slider-box  slider1">
+                            <h2 class="s-title">
+                                My hobby
+                            </h2>
+                            <p class="s-t-des">
+                                i like coding and i do complete perfect projects.my habit is achieve client
+                                satisfaction.
+                            </p>
+                            <div class="btn">
+                                <span class="btn-f">
+                                    <span>
+                                        <button class="btn1">read more >></button>
+                                    </span>
+                                </span>
+                                <span class="btn-s">
+                                    <span>
+                                        <button class="btn2">order</button>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="slider-box slider2">
+                            <h2 class="s-title">
+                                my dream
+                            </h2>
+                            <p class="s-t-des">
+                                i will achieve my dream by web development field. i will be increasing my skills bay by
+                                bay for my dream.
+                            </p>
+                            <div class="btn">
+                                <span class="btn-f">
+                                    <span>
+                                        <button class="btn1">skills</button>
+                                    </span>
+                                </span>
+                                <span class="btn-s">
+                                    <span>
+                                        <button class="btn2">projects</button>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--end slider-->
+
+
+    </header>
+    <!--end header-->
+    <!--start skill section-->
+    <section class="skill js--second-section" id="skill">
+
+        <div class="skill-cover">
+            <div class="section-heading section-skill-head">
+                <div class="row">
+                    <div class="section-marque">
+                        <marquee scrolldelay=200 behavior="scroll" direction="left">
+                            <span>skills</span> >html5 >CSS3 >JavaScript >BOOTSTRAP
+                        </marquee>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="skill-all">
+                    <div class="skill-circle skill-circle1">
+                        <svg class="radial-progress circle-1" data-percentage="90" viewBox="0 0 80 80">
+                            <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                            <circle class="complete" cx="40" cy="40" r="35"
+                                style="stroke-dashoffset: 39.58406743523136;">
+                            </circle>
+                            <!--add required % in circle center .replace 82% place add data-percentage place-->
+                            <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">90%</text>
+                        </svg>
+                        <!--add required text in bottom-->
+                        <h3>HTML5</h3>
+                    </div>
+                    <div class="skill-circle skill-circle2">
+                        <svg class="radial-progress circle-2" data-percentage="90" viewBox="0 0 80 80">
+                            <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                            <circle class="complete" cx="40" cy="40" r="35"
+                                style="stroke-dashoffset: 39.58406743523136;">
+                            </circle>
+                            <!--add required % in circle center .replace 82% place add data-percentage place-->
+                            <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">90%</text>
+                        </svg>
+                        <!--add required text in bottom-->
+                        <h3>CSS3</h3>
+                    </div>
+                    <div class="skill-circle skill-circle3">
+                        <svg class="radial-progress circle-3" data-percentage="50" viewBox="0 0 80 80">
+                            <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                            <circle class="complete" cx="40" cy="40" r="35"
+                                style="stroke-dashoffset: 39.58406743523136;">
+                            </circle>
+                            <!--add required % in circle center .replace 82% place add data-percentage place-->
+                            <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">50%</text>
+                        </svg>
+                        <!--add required text in bottom-->
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="skill-circle skill-circle4">
+                        <svg class="radial-progress circle-4" data-percentage="80" viewBox="0 0 80 80">
+                            <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                            <circle class="complete" cx="40" cy="40" r="35"
+                                style="stroke-dashoffset: 39.58406743523136;">
+                            </circle>
+                            <!--add required % in circle center .replace 82% place add data-percentage place-->
+                            <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">80%</text>
+                        </svg>
+                        <!--add required text in bottom-->
+                        <h3>BOOTSTRAP</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end skill section-->
+    <!--start projects section-->
+    <div class="projects" id="projects">
+        <div class="projects-cover">
+            <div class="section-heading section-projects-head">
+                <div class="row">
+                    <div class="section-marque">
+                        <marquee scrolldelay=200 behavior="scroll" direction="left">
+                            <span>projects</span> >web designing > emain signatuer >psd to html >css3 bug fix
+                        </marquee>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="p-btns">
+                    <button class="p-btn p-btn1" type="button" data-filter="all">All</button>
+                    <button class="p-btn p-btn2" type="button" data-filter=".em">email signatuer</button>
+                    <button class="p-btn p-btn3" type="button" data-filter=".psd">psd to html</button>
+                    <button class="p-btn p-btn4" type="button" data-filter=".css">css3 solution</button>
+                </div>
+                <div class="all-project-boxs container">
+                    <div class="mix em box box1">
+                        <img class="p-img" src="img/projects/em2.jpg" alt="projcet-email-signatuer">
+                    </div>
+                    <div class="mix box box2 psd">
+                        <img class="p-img" src="img/projects/psd1.jpg" alt="projcet-psd-to-html">
+                    </div>
+                    <div class="mix box box3 css">
+                        <img class="p-img" src="img/projects/css1.jpg" alt="projcet-css3-solution">
+                    </div>
+                    <div class="mix box box4 em">
+                        <img class="p-img" src="img/projects/em3.jpg" alt="projcet-email-signatuer">
+                    </div>
+                    <div class="mix box box5 psd">
+                        <img class="p-img" src="img/projects/psd2.jpg" alt="projcet-psd-to-html">
+                    </div>
+                    <div class="mix box box6 css">
+                        <img class="p-img" src="img/projects/css2.jpg" alt="projcet-css3-solution">
+                    </div>
+                    <div class="mix box box7 em">
+                        <img class="p-img" src="img/projects/em4.jpg" alt="projcet-email-signatuer">
+                    </div>
+                    <div class="mix box box8 psd">
+                        <img class="p-img" src="img/projects/psd3.jpg" alt="projcet-psd-to-html">
+                    </div>
+                    <div class="mix box box9 css">
+                        <img class="p-img" src="img/projects/css3.jpg" alt="projcet-css3-solution">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+    <!--end projects section-->
+
+    <!--start market place section-->
+    <section class="market-place" id="market-place">
+        <div class="market-place-cover">
+            <div class="section-heading section-market-head ">
+                <div class="row">
+                    <div class="section-marque">
+                        <marquee scrolldelay=200 behavior="scroll" direction="left">
+                            <span>projects</span> >fiverr > upwork >freelancer
+                        </marquee>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="all-market-con">
+                    <a target="_blank" href=" https://www.fiverr.com/mk_shipon">
+
+                        <div class="m-box m-box1">
+                            <img src="img/shipon-bg-r.png" alt="fiver">
+
+                            <h5>mk shipon</h5>
+                            <p>i am a seller in fiverr. i had salled many projects by fiverr.if you need any support
+                                please
+                                contact me.</p>
+
+                        </div>
+                    </a>
+
+                    <a target="_blank" href=" https://www.fiverr.com/mk_shipon">
+
+                        <div class="m-box m-box1">
+                            <img src="img/shipon-bg-r.png" alt="fiver">
+
+                            <h5>mk shipon</h5>
+                            <p>i am a seller in fiverr. i had salled many projects by fiverr.if you need any support
+                                please
+                                contact me.</p>
+
+                        </div>
+                    </a>
+                    <a target="_blank" href=" https://www.fiverr.com/mk_shipon">
+
+                        <div class="m-box m-box1">
+                            <img src="img/shipon-bg-r.png" alt="fiver">
+
+                            <h5>mk shipon</h5>
+                            <p>i am a seller in fiverr. i had salled many projects by fiverr.if you need any support
+                                please
+                                contact me.</p>
+
+                        </div>
+                    </a>
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--end market place section-->
+
+    <!--start contract section-->
+    <section class="contract" id="contract">
+        <div class="contract-cover">
+            <div class="section-heading section-contract-head ">
+                <div class="row">
+                    <div class="section-marque">
+                        <marquee scrolldelay=200 behavior="scroll" direction="left">
+                            <span>content by</span> >facebook > whatsapp >teligram >email
+                        </marquee>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="contract-inner">
+                    <div class="c-links">
+                        <div class="fist-contract">
+                            <div class="fist-contant-all">
+                                <div class="c-box">
+                                    <div class="cicon cicon1">
+                                        <a target="_blank" href="tel:+8801835375666">
+                                            <i class="fa-solid fa-phone"></i>
+                                        </a>
+                                    </div>
+                                    <div class="cdes cdes1">
+                                        <a target="_blank" href="tel:+8801835375666">+8801835375666</a>
+                                    </div>
+                                </div>
+                                <div class="c-box">
+                                    <div class="cicon cicon2">
+                                        <a target="_blank"
+                                            href="https://api.whatsapp.com/send?phone=8801835375666&text=urlencodedtext">
+                                            <i class="fa-brands fa-whatsapp"></i>
+                                        </a>
+                                    </div>
+                                    <div class="cdes cdes2">
+                                        <a target="_blank"
+                                            href="https://api.whatsapp.com/send?phone=8801835375666&text=urlencodedtext">+8801835375666</a>
+                                    </div>
+                                </div>
+                                <div class="c-box">
+                                    <div class="cicon cicon3">
+                                        <a href="mailto:mki.shipon@gmail.com">
+                                            <i class="fa-solid fa-envelopes-bulk"></i>
+                                        </a>
+
+                                    </div>
+                                    <div class="cdes cdes3">
+                                        <a target="_blank" href="mailto:mki.shipon@gmail.com">mki.shipon@gmail.com</a>
+                                    </div>
+                                </div>
+                                <div class="c-box">
+                                    <div class="cicon cicon4">
+                                        <a target="_blank" href="https://telegram.me/mkshipon">
+                                            <i class="fa-brands fa-telegram"></i>
+                                        </a>
+                                    </div>
+                                    <div class="cdes cdes4">
+                                        <a target="_blank" href="https://telegram.me/mkshipon">+8801835375666</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="second-contract">
+                            <div class="sec-con-1">
+                                <div class="sec-icon">
+                                    <a target="_blank" href="https://facebook.com/mkshiponislam">
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </a>
+                                </div>
+                                <div class="sec-icon">
+                                    <a target="_blank" href="#">
+                                        <i class="fa-brands fa-facebook-messenger"></i>
+                                    </a>
+                                </div>
+                                <div class="sec-icon">
+                                    <a target="_blank" href="#">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                </div>
+                                <div class="sec-icon">
+                                    <a target="_blank" href="#">
+                                        <i class="fa-brands fa-square-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="sec-con-2">
+                                <div class="sec-icon">
+                                    <a href="#">
+                                        <i class="fa-brands fa-quora"></i>
+                                    </a>
+                                </div>
+                                <div class="sec-icon">
+                                    <a target="_blank" href="#">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </a>
+                                </div>
+                                <div class="sec-icon">
+                                    <a target="_blank" href="#">
+                                        <i class="fa-brands fa-pinterest"></i>
+                                    </a>
+                                </div>
+                                <div class="sec-icon">
+                                    <a target="_blank" href="#">
+                                        <i class="fa-brands fa-youtube"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="c-form">
+                        <form action="">
+                            <input class="name" type="text" placeholder="Your name *">
+                            <input class="email" type="email" placeholder="your emanil">
+
+                            <textarea class="text-area" placeholder="Your massage" name="" id="" cols="30"
+                                rows="10"></textarea>
+                            <input class="s-btn" type="submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--end self section-->
+
+
+
+
+
+
+    <!--html5 shiv js for Enabling HTML5 Shiv Script and Print Support on old IE6-9 Browser Safari 4.x-->
+    <script src="vandor/js/html5shiv-printshiv.min.js"></script>
+    <!--Respond.js is a fast & lightweight polyfill for min/max-width CSS3 Media Queries (for IE 6-8, and more).-->
+    <script src="vandor/js/respond.min.js"></script>
+    <!--selectivizr is a JavaScript utility that emulates CSS3 pseudo-classes and attribute selectors in Internet Explorer 6-8..-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+    <!--google hosted jquery cdn..-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <!--skill circle animation..    -->
+    <script src="vandor/js/animated-circle-plagin.js"></script>
+    <!--for mobile menu stickey   -->
+    <script src="vandor/js/jquery.waypoints.min.js"></script>
+    <!--click able box create  -->
+    <script src="vandor/js/mixitup.min.js"></script>
+    <!--for slider create  -->
+    <script src="vandor/js/slick.min.js"></script>
+    <!--main js file..    -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
